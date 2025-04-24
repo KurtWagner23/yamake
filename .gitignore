@@ -1,0 +1,56 @@
+build/
+yamake
+
+# Binaries (Linux, macOS, Windows)
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.a
+*.out
+
+# Test binary
+*.test
+
+# Output from `go build`, `go run`, etc.
+yamake
+main
+
+# Vendor directory (if not using Go modules)
+vendor/
+
+# Go workspaces
+go.work
+go.work.sum
+
+# Dependency directories (from tools)
+Godeps/
+
+# IDEs & editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# OS & tooling junk
+.DS_Store
+Thumbs.db
+
+# Logs, temp & coverage
+*.log
+*.tmp
+*.toc
+*.bak
+*.orig
+*.coverprofile
+*.cov
+coverage.*
+*.out
+
+# Build directory (for yamake or C/C++ builds)
+build/
+
+# Node or other tooling (if used in project)
+node_modules/

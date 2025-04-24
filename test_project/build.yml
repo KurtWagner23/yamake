@@ -1,0 +1,7 @@
+project: testapp
+type: executable
+sources:
+  - main.cpp
+  - add.cpp
+compiler: g++
+cflags: -Wall -O2 -g
